@@ -1,6 +1,6 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing1/Hero";
+import Hero from "../sections/racing/Hero";
 import Services from "../sections/landing1/Services";
 import Testimonial1 from "../sections/landing1/Testimonial1";
 import Content1 from "../sections/landing1/Content1";

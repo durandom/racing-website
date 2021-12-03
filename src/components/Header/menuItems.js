@@ -1,7 +1,7 @@
 export const menuItems = [
   {
-    name: "demos",
-    label: "Demos",
+    name: "racing",
+    label: "Racing",
     items: [
       { name: "", label: "Agency" },
       { name: "job-directory", label: "Job Directory" },
@@ -18,8 +18,8 @@ export const menuItems = [
     ],
   },
   {
-    name: "pages",
-    label: "Pages",
+    name: "community",
+    label: "Community",
     items: [
       { name: "about", label: "About" },
       {
@@ -75,8 +75,8 @@ export const menuItems = [
     ],
   },
   {
-    name: "https://uxtheme.net/product-support/",
-    label: "Support",
+    name: "https://www.coingecko.com/de/munze/money-printer-go-brrr-set",
+    label: "Vroom Token",
     isExternal: true,
   },
 ];
