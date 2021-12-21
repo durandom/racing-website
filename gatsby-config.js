@@ -10,5 +10,4 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
   ],
-  pathPrefix: "/racing-website",
 };
