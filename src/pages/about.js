@@ -21,7 +21,7 @@ const AboutPage = () => {
       <PageWrapper
         headerConfig={{
           align: "right",
-          button: "account", // cta, account, null
+          button: "cta", // cta, account, null
         }}
       >
         <div className="inner-banner">
@@ -29,11 +29,9 @@ const AboutPage = () => {
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
               <Col lg="9" xl="8">
                 <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12 heading-color">Our story</h2>
+                  <h2 className="title gr-text-2 mb-9 mb-lg-12 heading-color">#B4mad Racing</h2>
                   <p className="gr-text-8 text-color-opacity mb-0 text-color-opacity">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next consultancy website within
-                    few minutes.
+                  Your trusted Track Record to accelerate your racing career
                   </p>
                 </div>
               </Col>
@@ -51,22 +49,22 @@ const AboutPage = () => {
               <Col lg="6" className="mb-7 mb-lg-0">
                 <div className="pe-xl-13">
                   <h2 className="gr-text-3 heading-color mb-0">
-                    We are here to help the customers to get their success.
+                  Why
                   </h2>
                 </div>
               </Col>
               <Col lg="6">
                 <div className="pe-xl-15">
                   <p className="gr-text-8 text-color-opacity mb-7 mb-lg-10">
-                    We share common trends and strategies for improving your
-                    rental income and making sure you stay in high demand of
-                    service.{" "}
+                  Sim racers enjoy collecting data, improving their skills, and a healthy competition. Grinding laps on a single track and shaving those milliseconds off of a lap time requires dedication and a long-term investment: hundreds if not thousands of detailed, analysed training laps.
+                  </p>
+                  <p className="gr-text-8 text-color-opacity mb-7 mb-lg-10">
+                  #B4mad Racing provides a driver’s history - the track record - across multiple games, along the lifetime of their career. #B4mad Racing enables them to work on their driving style and most important their skills, through innovative products and comparing their ability with other drivers.
                   </p>
                   <p className="gr-text-8 text-color-opacity mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next landing page. With lots of
-                    unique blocks, you can easily build a page without coding
-                    any other page.
+                  #B4mad Racing - the product and the organization - are built upon Web3 Technology to ensure a lifelong track record that can be trusted, and build a community that is eager to get involved. It will spawn a platform, with economics that enable an ecosystem for innovative products.
+
+
                   </p>
                 </div>
               </Col>
@@ -125,26 +123,21 @@ const AboutPage = () => {
               >
                 <div className="content-text">
                   <h2 className="gr-text-3 heading-color mb-7 mb-lg-11">
-                    High skilled coders <br className="d-none d-lg-block" />{" "}
-                    from worldwide.
+                  Community
+
                   </h2>
                   <p className="gr-text-8 text-color-opacity mb-7 mb-lg-10">
-                    We share common trends and strategies for improving your
-                    rental income and making sure you stay in high demand of
-                    service.{" "}
+                  We want to provide a platform, that is super focused on the needs of their users, therefore we strive to involve them as much as possible. A vivid feature request culture is a significant part of the development work creating the platform.
+
+
                   </p>
-                  <p className="gr-text-8 text-color-opacity mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next landing page. With lots of
-                    unique blocks, you can easily build a page without coding
-                    any other page.
-                  </p>
+                 
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
-        <div className="pt-13 pt-lg-24 pb-lg-24 ">
+        {/* <div className="pt-13 pt-lg-24 pb-lg-24 ">
           <Container>
             <Row className="justify-content-center">
               <Col lg="9" xl="8">
@@ -268,7 +261,7 @@ const AboutPage = () => {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
       </PageWrapper>
     </>
   );

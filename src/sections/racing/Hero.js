@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgH from "../../assets/image/cars-with-fake-engine-sounds-is-the-vroom-a-sham.png";
+import imgH from "../../assets/image/racing/cars-with-fake-engine-sounds-is-the-vroom-a-sham.png";
 import imgHPattern from "../../assets/image/l6/png/l6-hero-pattern.png";
 import imgHW from "../../assets/image/svg/l6-hero-wave.svg";
 import imgHWD from "../../assets/image/svg/l6-hero-wave-dark.svg";

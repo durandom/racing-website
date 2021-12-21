@@ -8,12 +8,12 @@ const headerConfigDefault = {
   align: "left",
   isFluid: false,
   button: "cta", // trial, cart, cta, account, null
-  buttonText: "Get started free", // trial, cart, cta, account, null
+  buttonText: "Waitlist", // trial, cart, cta, account, null
 };
 
 const footerConfigDefault = {
   theme: "dark",
-  style: "style2", //style1, style2, style3
+  style: "style1", //style1, style2, style3
 };
 
 const PageWrapper = ({

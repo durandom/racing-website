@@ -20,7 +20,7 @@ const SliderStyled = styled(Slider)`
 const items = [
   {
     title: "Community lead / Marketing",
-    type: "Full-time",
+    type: "For Hire",
     location: "The community lead facilitates communication and creates awareness and trust within the community.",
     description: "",
     brandLogo: imgL1,
@@ -151,9 +151,9 @@ const Jobs = () => {
                       className="feature-widget focus-reset bg-white d-flex flex-column min-height-px-297 border rounded-10 pt-8 pb-8 ps-7 mx-6 ps-lg-9 pe-md-8 pe-lg-10 gr-hover-shadow-1"
                     >
                       <div className="mb-auto">
-                        {/* <h5 className="gr-text-12 pb-1 text-green text-uppercase">
+                        <h5 className="gr-text-12 pb-1 text-green text-uppercase">
                           {type}
-                        </h5> */}
+                        </h5>
                         <h3 className="gr-text-7 text-blackish-blue">
                           {title}
                         </h3>

@@ -12,7 +12,7 @@ const Fearures = () => {
       <div className="feature-section border-top bg-default-2 pt-15 pt-lg-22 pb-9 pb-md-0 pb-lg-17">
         <Container>
           <Row className="justify-content-center">
-            <Col lg="4" md="6" className="mb-8 mb-md-13 mb-lg-0">
+          <Col lg="4" md="6" className="mb-8 mb-md-13 mb-lg-0">
               <div
                 className="feature-widget media"
                 data-aos="fade-up"

@@ -5,14 +5,9 @@ import Content1 from "../sections/racing/Content1";
 import Content2 from "../sections/racing/Content2";
 import Services from "../sections/racing/Services";
 import Features from "../sections/racing/Features";
-import Job from "../sections/racing/Job";
-import Process from "../sections/landing8/Process";
-import Testimonial1 from "../sections/landing1/Testimonial1";
-import Fact from "../sections/landing1/Fact";
-import Cta1 from "../sections/landing1/Cta1";
-import CaseStudies from "../sections/landing1/CaseStudies";
-import Testimonial2 from "../sections/landing1/Testimonial2";
-import Cta2 from "../sections/landing1/Cta2";
+import Team from "../sections/racing/Team";
+import Process from "../sections/racing/Process";
+import Cta1 from "../sections/racing/Cta1";
 
 const IndexPage = () => {
   return (
@@ -27,14 +22,9 @@ const IndexPage = () => {
         <Content2 />
         <Services />
         <Features />
-        <Job />
+        <Team />
         <Process />
-        <Testimonial1 />
-        <Fact />
         <Cta1 />
-        <CaseStudies />
-        <Testimonial2 />
-        <Cta2 />
       </PageWrapper>
     </>
   );

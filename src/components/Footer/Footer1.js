@@ -35,11 +35,10 @@ const Footer = () => {
                 className="footer-logo mb-11"
               />
               <p className="gr-text-11 text-color-opacity">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
+              Your trusted Track Record to accelerate your racing career
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
-                <li className="me-2">
+                {/* <li className="me-2">
                   <Link to="/" className={iconClassName}>
                     <i className="icon icon-logo-twitter"></i>
                   </Link>
@@ -58,22 +57,22 @@ const Footer = () => {
                   <Link to="/" className={iconClassName}>
                     <i className="icon icon-logo-linkedin"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
               <Row>
                 <Col xs="6" lg="3">
                   <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Company</p>
+                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Project</p>
                     <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
-                        <Link to="/" className={linkClassName}>
+                        <Link to="/about" className={linkClassName}>
                           About us
                         </Link>
                       </li>
                       <li className="py-2">
-                        <Link to="/" className={linkClassName}>
+                        <Link to="/contact" className={linkClassName}>
                           Contact us
                         </Link>
                       </li>
@@ -82,11 +81,11 @@ const Footer = () => {
                           Careers
                         </Link>
                       </li>
-                      <li className="py-2">
+                      {/* <li className="py-2">
                         <Link to="/" className={linkClassName}>
                           Press
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </Col>

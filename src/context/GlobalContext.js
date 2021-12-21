@@ -12,7 +12,7 @@ const GlobalProvider = ({ children }) => {
     align: "left",
     isFluid: false,
     button: "cta", // cta, account, null
-    buttonText: "Get started free", // cta, account, null
+    buttonText: "Waitlist", // cta, account, null
   });
   const [footer, setFooter] = useState({
     theme: "dark",
