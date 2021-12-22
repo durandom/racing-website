@@ -2,8 +2,8 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
 
-import imgBanner from "../assets/image/inner/about-banner.png";
-import imgC1 from "../assets/image/inner/about-content-1.png";
+import imgBanner from "../assets/image/racing/favpng_racing-flags-formula-one-clip-art.png";
+import imgC1 from "../assets/image/racing/start up your project concept_5335862.png";
 import imgC2 from "../assets/image/inner/about-content-2.png";
 import imgC3 from "../assets/image/inner/about-content-3.png";
 import imgC4 from "../assets/image/inner/about-content-4.png";
@@ -35,11 +35,6 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col xs="12">
-                <div className="banner-fluid-image pt-lg-9">
-                  <img src={imgBanner} alt="" className="w-100" />
-                </div>
-              </Col>
             </Row>
           </Container>
         </div>
@@ -51,6 +46,9 @@ const AboutPage = () => {
                   <h2 className="gr-text-3 heading-color mb-0">
                   Why
                   </h2>
+                </div>
+                <div className="banner-fluid-image pt-lg-9">
+                  <img src={imgBanner} alt="" className="w-50" />
                 </div>
               </Col>
               <Col lg="6">
@@ -85,7 +83,7 @@ const AboutPage = () => {
                       className="w-100 pb-6 pb-sm-9 rounded-10"
                     />
 
-                    <img
+                    {/* <img
                       src={imgC2}
                       alt=""
                       data-aos="zoom-in"
@@ -111,7 +109,7 @@ const AboutPage = () => {
                       data-aos-duration="500"
                       data-aos-delay="1200"
                       className="w-100 rounded-10"
-                    />
+                    /> */}
                   </div>
                 </div>
               </Col>

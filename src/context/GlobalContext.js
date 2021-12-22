@@ -34,7 +34,7 @@ const GlobalProvider = ({ children }) => {
   const closeOffCanvas = () => {
     setVisibleOffCanvas(false);
   };
-// console.log(GlobalHeaderContext);
+// console.log(GlobalContext);
   return (
     <GlobalContext.Provider
       value={{

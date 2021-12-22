@@ -4,9 +4,10 @@ export const menuItems = [
     label: "Community",
     items: [
       { name: "about", label: "About" },
+      { name: "platform", label: "Platform" },
       { name: "development", label: "Development" },
       { name: "tokenomics", label: "Tokenomics" },
-      { name: "job-openings", label: "Job openings" },
+      { name: "job-openings", label: "Join the team" },
     ],
   },
   {

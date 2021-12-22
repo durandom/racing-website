@@ -120,7 +120,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Helmet>
-            <title>Shade Pro</title>
+            <title>#B4mad Racing</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Helmet>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -150,7 +150,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Helmet>
-            <title>Shade Pro</title>
+            <title>#B4mad Racing</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Helmet>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />

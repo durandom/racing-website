@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgT1 from "../../assets/image/telemedicine/png/team-1.png";
-import imgT2 from "../../assets/image/telemedicine/png/team-2.png";
-import imgT3 from "../../assets/image/telemedicine/png/team-3.png";
-import imgT4 from "../../assets/image/telemedicine/png/team-4.png";
-import imgT5 from "../../assets/image/telemedicine/png/team-5.png";
-import imgT6 from "../../assets/image/telemedicine/png/team-6.png";
-import imgT7 from "../../assets/image/telemedicine/png/team-7.png";
+import imgT1 from "../../assets/image/racing/goern.png";
+import imgT2 from "../../assets/image/racing/durandom.png";
+import imgT3 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
+import imgT4 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
+import imgT5 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
+import imgT6 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
+import imgT7 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
 import imgT8 from "../../assets/image/telemedicine/png/team-8.png";
 import imgT9 from "../../assets/image/telemedicine/png/team-9.png";
 
@@ -124,6 +124,9 @@ const Team = () => {
                   <Link to="/job-openings">
                     <h3 className="name gr-text-7 heading-color mb-6">Engineering Lead</h3>
                   </Link>
+                  <h5 className="gr-text-12 pb-1 text-green text-uppercase">
+                     Position Open
+                  </h5>
                   <p className="gr-text-11 text-color-opacity mb-0">
                   This role is defining the core technological aspects of the platform and our service delivery.
                   </p>
@@ -148,7 +151,10 @@ const Team = () => {
                     Racing lead
                     </h3>
                   </Link>
-                  <p className="gr-text-11 text-color-opacity mb-0">
+                  <h5 className="gr-text-12 pb-1 text-green text-uppercase">
+                     Position Open
+                  </h5>
+               <p className="gr-text-11 text-color-opacity mb-0">
                   The racing lead bridges the gap from physical high-profile racing to our platform of sim-racers, bringing in real-world experience.
 
 
@@ -172,7 +178,10 @@ const Team = () => {
                   <Link to="/job-openings">
                     <h3 className="name gr-text-7 heading-color mb-6">User Experience and Design lead</h3>
                   </Link>
-                  <p className="gr-text-11 text-color-opacity mb-0">
+                  <h5 className="gr-text-12 pb-1 text-green text-uppercase">
+                     Position Open
+                  </h5>
+               <p className="gr-text-11 text-color-opacity mb-0">
                   Create a highly recognizable and concise user experience across all media used by the platform.
                   </p>
                 </div>
@@ -194,7 +203,10 @@ const Team = () => {
                   <Link to="/job-openings">
                     <h3 className="name gr-text-7 heading-color mb-6">Data science lead (AI)</h3>
                   </Link>
-                  <p className="gr-text-11 text-color-opacity mb-0">
+                  <h5 className="gr-text-12 pb-1 text-green text-uppercase">
+                     Position Open
+                  </h5>
+                 <p className="gr-text-11 text-color-opacity mb-0">
                   This role opens the potential of the data aggregated by our platform, enabling us and our partners to provide unique services.
                   </p>
                 </div>

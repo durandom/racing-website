@@ -7,7 +7,7 @@ import Services from "../sections/racing/Services";
 import Features from "../sections/racing/Features";
 import Team from "../sections/racing/Team";
 import Process from "../sections/racing/Process";
-import Cta1 from "../sections/racing/Cta1";
+import Cta from "../sections/racing/CTA";
 
 const IndexPage = () => {
   return (
@@ -24,7 +24,7 @@ const IndexPage = () => {
         <Features />
         <Team />
         <Process />
-        <Cta1 />
+        <Cta />
       </PageWrapper>
     </>
   );

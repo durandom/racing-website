@@ -2,8 +2,8 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
 
-import imgBanner from "../assets/image/inner/about-banner.png";
-import imgC1 from "../assets/image/inner/about-content-1.png";
+import imgBanner from "../assets/image/racing/blue blockchain big data financial_4036080.png";
+import imgC1 from "../assets/image/racing/kisspng-public-participation-organization-citizen-computer-corporate-boards-5b080af24dbf41.3067647115272537463185.png";
 import imgC2 from "../assets/image/inner/about-content-2.png";
 import imgC3 from "../assets/image/inner/about-content-3.png";
 import imgC4 from "../assets/image/inner/about-content-4.png";
@@ -21,7 +21,7 @@ const AboutPage = () => {
       <PageWrapper
         headerConfig={{
           align: "right",
-          button: "account", // cta, account, null
+          button: "cta", // cta, account, null
         }}
       >
         <div className="inner-banner">
@@ -80,7 +80,7 @@ const AboutPage = () => {
                       data-aos-duration="500"
                       className="w-100 pb-6 pb-sm-9 rounded-10"
                     />
-
+{/* 
                     <img
                       src={imgC2}
                       alt=""
@@ -107,7 +107,7 @@ const AboutPage = () => {
                       data-aos-duration="500"
                       data-aos-delay="1200"
                       className="w-100 rounded-10"
-                    />
+                    /> */}
                   </div>
                 </div>
               </Col>
@@ -225,6 +225,22 @@ a virtual wallet for crypto currencies is required to own BRRR
                       </li>
                     </ul>
                   </div>
+
+                  {/* <div className="single-block mb-11">
+                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Market Analysis
+
+</h3>
+                    <p className="gr-text-9 text-color-opacity">
+                    iRacing has 200k users, which subscribe to their paid subscription. Racedepartment.com used SteamDB to see how many players are playing some of the more popular games. The combined 24-hour peaks of the games are ~30k concurrent average players for the more simulation-focused games. Racedepartment.com itself has 2 million registered members. They also offer a similar product to #B4mad Racing -  called https://www.simracing.gp/ - which is currently in beta but does not seem to be focused so much on telemetry data and driver history.
+</p>
+<p className="gr-text-9 text-color-opacity">
+
+Let’s assume we have a market of 1.000.000 potential users and every 4th user signs up for the free service. This will result in 250.000 registered users. If we have a conservative conversion rate of 10% into the paid tier, we’d get 25.000 paying subscribers.
+The average cost of a paid product is approx 5 USD / month, resulting in 125.000 USD monthly revenue.
+
+
+                    </p>
+                  </div> */}
               </div>
               </Col>
             </Row>

@@ -18,7 +18,7 @@ const JobOpenings = () => {
       <PageWrapper
         headerConfig={{
           align: "right",
-          button: "account", // cta, account, null
+          button: "cta", // cta, account, null
         }}
       >
         <div className="inner-banner bg-default-6 pt-24 pt-lg-30 pb-lg-15">
@@ -27,7 +27,7 @@ const JobOpenings = () => {
               <Col xl="8" lg="9">
                 <div className="px-md-12 mb-13 text-center">
                   <h2 className="title gr-text-2 mb-8 mb-lg-12 heading-color">
-                    Join at B4mad Racing
+                    Join B4mad Racing
                   </h2>
                   <p className="gr-text-8 mb-0 text-color-opacity">
                     be part of the DAO
@@ -38,7 +38,8 @@ const JobOpenings = () => {
           </Container>
         </div>
 
-        <JobVideo/>
+
+        {/* <JobVideo/> */}
 
         <div className="pb-2 pb-lg-9 pt-13 pt-lg-24 bg-default-6 ">
           <Container>
@@ -53,7 +54,7 @@ const JobOpenings = () => {
 
 The weights and focus might change over time, the initial structure does not imply a hierarchy, nor a static organization. We want to be quick and open to change - a DAO.
 
-The leadership team is steering and controlling our activities, not doing and implementing.
+The leadership team is steering and controlling our activities.
 
 The leadership team is a critical and initial part of the DAO, and their experience is key to the success, honoring this fact they will receive a significant and equal share of the DAO.
                   </p>
