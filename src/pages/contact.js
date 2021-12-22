@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="pb-5 pb-md-33 bg-default-2 ">
           <Container>
             <Row className="justify-content-center">
-              {/* <Col xs="12" className="mb-9">
+              <Col xs="12" className="mb-9">
                 <Row>
                   <Col md="5" lg="4" className="mb-13">
                     <div className="single-contact-widget d-flex">
@@ -36,15 +36,14 @@ const Contact = () => {
                         <i className="icon icon-phone-2"></i>
                       </div>
                       <div className="widget-text">
-                        <h3 className="gr-text-6 mb-5 heading-color">Call us</h3>
+                        <h3 className="gr-text-6 mb-5 heading-color">Chat</h3>
                         <p className="gr-text-7 mb-0 text-color-opacity">
-                          +1-940-394-2948 <br />
-                          +1-389-385-3807
+                        <a href="https://discord.gg/MaUQuSGSbJ">Discord Server</a>
                         </p>
                       </div>
                     </div>
                   </Col>
-                  <Col md="5" lg="4" className="mb-13">
+                  {/* <Col md="5" lg="4" className="mb-13">
                     <div className="single-contact-widget d-flex">
                       <div className="widget-icon circle-sm-2 bg-white gr-text-6 text-primary me-7">
                         <i className="icon icon-email-83"></i>
@@ -52,30 +51,26 @@ const Contact = () => {
                       <div className="widget-text">
                         <h3 className="gr-text-6 mb-5 heading-color">Email us</h3>
                         <p className="gr-text-7 mb-0 text-color-opacity">
-                          support@grayic.com
-                          <br />
-                          contact@grayic.com
+                          racing@b4mad.net
                         </p>
                       </div>
                     </div>
-                  </Col>
+                  </Col> */}
                   <Col md="5" lg="4" className="mb-13">
                     <div className="single-contact-widget d-flex">
                       <div className="widget-icon circle-sm-2 bg-white gr-text-6 text-primary me-7">
                         <i className="icon icon-pin-3-2"></i>
                       </div>
                       <div className="widget-text">
-                        <h3 className="gr-text-6 mb-5 heading-color">Visit us</h3>
+                        <h3 className="gr-text-6 mb-5 heading-color">Tweet</h3>
                         <p className="gr-text-7 mb-0 text-color-opacity">
-                          34 Madison Street,
-                          <br />
-                          NY, USA 10005
+                        <a href="https://twitter.com/b4racer">Twitter</a>
                         </p>
                       </div>
                     </div>
                   </Col>
                 </Row>
-              </Col> */}
+              </Col>
               <Col xs="12">
                 <div className="login-form bg-white border-gray-3 px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-1 rounded-10">
                   <form
