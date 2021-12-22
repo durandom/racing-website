@@ -11,8 +11,8 @@ export const menuItems = [
     ],
   },
   {
-    name: "https://www.coingecko.com/de/munze/money-printer-go-brrr-set",
-    label: "Vroom Token",
+    name: "https://polygonscan.com/token/0x2403f6679f76b6ab3cbe2fd2617a8cbc02bfda15",
+    label: "Vrooom Token",
     isExternal: true,
   },
 ];

@@ -38,22 +38,22 @@ const Footer = () => {
               Your trusted Track Record to accelerate your racing career
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
-                {/* <li className="me-2">
-                  <Link to="/" className={iconClassName}>
+                <li className="me-2">
+                  <Link to="https://twitter.com/b4racer" className={iconClassName}>
                     <i className="icon icon-logo-twitter"></i>
                   </Link>
                 </li>
                 <li className="me-2">
-                  <Link to="/" className={iconClassName}>
-                    <i className="icon icon-logo-facebook"></i>
+                  <Link to="https://discord.gg/MaUQuSGSbJ" className={iconClassName}>
+                    <i className="icon icon-logo-slack"></i>
                   </Link>
                 </li>
                 <li className="me-2">
-                  <Link to="/" className={iconClassName}>
-                    <i className="icon icon-instant-camera-2"></i>
+                  <Link to="https://github.com/b4mad/racing" className={iconClassName}>
+                    <i className="icon icon-logo-dribbble"></i>
                   </Link>
                 </li>
-                <li className="me-2">
+                {/* <li className="me-2">
                   <Link to="/" className={iconClassName}>
                     <i className="icon icon-logo-linkedin"></i>
                   </Link>
@@ -72,50 +72,30 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="py-2">
+                        <Link to="/platform" className={linkClassName}>
+                          Platform
+                        </Link>
+                      </li>
+                      <li className="py-2">
+                        <Link to="/development" className={linkClassName}>
+                          Development
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+                <Col xs="6" lg="3">
+                  <div className="single-footer mb-13 mb-lg-9">
+                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Community</p>
+                    <ul className="footer-list list-unstyled gr-text-9">
+                      <li className="py-2">
+                        <Link to="/tokenomics" className={linkClassName}>
+                          Tokenomics
+                        </Link>
+                      </li>
+                      <li className="py-2">
                         <Link to="/contact" className={linkClassName}>
-                          Contact us
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Careers
-                        </Link>
-                      </li>
-                      {/* <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Press
-                        </Link>
-                      </li> */}
-                    </ul>
-                  </div>
-                </Col>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Product</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Features
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Pricing
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          News
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Help desk
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Support
+                          Join the Team
                         </Link>
                       </li>
                     </ul>
@@ -123,32 +103,27 @@ const Footer = () => {
                 </Col>
                 <Col xs="6" lg="3">
                   <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Services</p>
+                    <p className="footer-title gr-text-11 text-color-opacity mb-7">Links</p>
                     <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Digital Marketing
+                        <Link to="https://twitter.com/b4racer" className={linkClassName}>
+                          Twitter
                         </Link>
                       </li>
                       <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          Content Writing
+                        <Link to="https://discord.gg/MaUQuSGSbJ" className={linkClassName}>
+                          Discord
                         </Link>
                       </li>
                       <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          SEO for Business
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link to="/" className={linkClassName}>
-                          UI Design
+                        <Link to="https://github.com/b4mad/racing" className={linkClassName}>
+                          GitHub
                         </Link>
                       </li>
                     </ul>
                   </div>
                 </Col>
-                <Col xs="6" lg="3">
+                {/* <Col xs="6" lg="3">
                   <div className="single-footer mb-13 mb-lg-9">
                     <p className="footer-title gr-text-11 text-color-opacity mb-7">Legal</p>
                     <ul className="footer-list list-unstyled gr-text-9">
@@ -169,7 +144,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </Col>
           </Row>

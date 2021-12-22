@@ -83,6 +83,8 @@ const Contact = () => {
                     method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
+
+                    action='https://formspree.io/f/xyyoyrwv'
                   >
                     {/* You still need to add the hidden input with the form name to your JSX form */}
                     <input type="hidden" name="form-name" value="contact2" />
