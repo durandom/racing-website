@@ -35,7 +35,7 @@ const Footer = () => {
                 className="footer-logo mb-11"
               />
               <p className="gr-text-11 text-color-opacity">
-              Your trusted Track Record to accelerate your racing career
+              AI-powered sim racing driver coaching
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
                 <li className="me-2">

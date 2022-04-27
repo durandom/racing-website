@@ -34,9 +34,8 @@ const JobOpenings = () => {
               <Col xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
                   <p className="gr-text-9 text-color-opacity mb-9">
-                  Create a highly recognizable and concise user experience across all media used by the platform.
-
-</p>
+                    Create a powerful yet simple user experience for helping drivers improve their performance
+                  </p>
                 </div>
                 <div className="single-block mb-12 mb-lg-14">
                   <h3 className="gr-text-6 heading-color fw-bold pb-3">
@@ -51,8 +50,7 @@ const JobOpenings = () => {
                           height: 9px;
                         `}
                       ></i>
-                      web technologies, such as gatsby, JS, CSS
-
+                      front-end web development with Gatsby, JS, CSS
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">
                       <i
@@ -62,10 +60,7 @@ const JobOpenings = () => {
                           height: 9px;
                         `}
                       ></i>
-graphics design
-                      <br></br>
-                      brand creation
-
+                      data visualizations
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">
                       <i
@@ -75,8 +70,7 @@ graphics design
                           height: 9px;
                         `}
                       ></i>
-                      data storytelling
-
+                      branding, styling
                     </li>
                     
                   </ul>

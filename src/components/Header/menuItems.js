@@ -1,10 +1,10 @@
 export const menuItems = [
   {
     name: "community",
-    label: "Community",
+    label: "More",
     items: [
       { name: "about", label: "About" },
-      { name: "platform", label: "Platform" },
+      { name: "product", label: "Products" },
       { name: "development", label: "Development" },
       { name: "tokenomics", label: "Tokenomics" },
       { name: "job-openings", label: "Join the team" },

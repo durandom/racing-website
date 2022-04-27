@@ -7,7 +7,7 @@ const Cta = () => (
     {/* <!-- CTA section --> */}
     <div className="cta-section bg-default-2 ">
       <Container>
-        <div className="cta-wrapper pt-13 pb-14 py-lg-19 border-top ">
+        <div className="cta-wrapper py-10 py-lg-10 border-top ">
           <Row className="align-items-center justify-content-center">
             <Col lg="6" md="10">
               <div className="cta-text section-title">

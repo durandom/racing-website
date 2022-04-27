@@ -23,10 +23,13 @@ const Content = () => {
             <Col xs="10" lg="6" xl="5" className="pe-xl-13 order-lg-1">
               <div className="section-title content-text mb-13">
                 <h2 className="title gr-text-3 mb-6 heading-color">
-                  Community
+                  About Us
                 </h2>
                 <p className="gr-text-8 text-color-opacity">
-                #B4mad Racing - the product and the organization - are built upon Web3 Technology to ensure a lifelong track record that can be trusted, and build a community that is eager to get involved. It will spawn a platform, with economics that enable an ecosystem for innovative products.
+                  #B4mad Racing is a group of open-source technologists who are passionate about motorsports. We want to
+                  apply the latest in machine learning, messaging, data visualization, and other projects to help people
+                  drive faster. We are building infrastructures using Web3 technologies to help support a user-driven
+                  ecosystem and community that is eager to get involved.
                 </p>
               </div>
             </Col>

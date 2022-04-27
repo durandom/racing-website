@@ -35,31 +35,26 @@ const TermsConditions = () => {
                 <div className="px-lg-8 px-xl-3">
                   <div className="single-block mb-11">
                     <p className="gr-text-9 text-color-opacity">
-                    The fundamental building blocks of software development are modern and forward looking. We believe in Web3 technology for identity management and economics. Scalability and future longevity is realized via cloud-native technology and open-source based components. Whenever possible we’ll use and implement the software stack as open-source software.
-
-Development is executed via distributed platforms such as GitHub and Gitcoin.
-
-
+                      We believe in Web3 technology for identity management and economics. Scalability and future
+                      longevity is realized via cloud-native technology and open-source based components.  Development is
+                      managed via distributed platforms such as GitHub and Gitcoin, and anyone can participate. The
+                      project is funded and backed by a cryptocurrency and distributed autonomous organization (DAO).
+                    </p>
+                    <p className="gr-text-9 text-color-opacity">
+                      Most PC-based sim racing programs offer a wealth of professional-motorsports-grade telemetry data.
+                      With all of this data available, there is an emerging ecosystem of analysis tools and solutions.
+                      #B4mad hopes to ride this wave of development and bring cloud-native and machine learning
+                      technologies into the mix.
                     </p>
                   </div>
                   <div className="single-block mb-11">
-                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Technical Background
-</h3>
+                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Development Roadmap</h3>
                     <p className="gr-text-9 text-color-opacity">
-                    Most sim racing games offer a wealth of telemetry data, such as speed, lap times and motor data, e.g. Simhubdash. There is a rich ecosystem of tools that use the data and create additional value to the sim-racer - such as driving external displays for telemetry data or input to hardware accessories. Although the data stream format varies slightly from game to game, the fundamentals are always the same, it’s car telemetry after all.
-
-                    </p>
-                  </div>
-                  <div className="single-block mb-11">
-                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Timeline</h3>
-                    <p className="gr-text-9 text-color-opacity">
-                    Development is dictated by funds available, it will launch with the first funds flowing into the project - either via private series or public funding . The created code and/or other assets are owned by the DAO. The usage licenses will be …
-
-
+                      Below you will find our roadmap, broken into discrete phases.
                     </p>
                   </div>
                   <div className="single-block mb-13">
-                    <h3 className="gr-text-8 fw-bold heading-color">Phase 0, Round A
+                    <h3 className="gr-text-8 fw-bold heading-color">Phase 0
 </h3>
                     <ul className="list-unstyled">
                       <li className="mt-7 text-color-opacity">
@@ -93,7 +88,6 @@ Development is executed via distributed platforms such as GitHub and Gitcoin.
                           `}
                         ></i>
                        founder funding ✅
-
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i
@@ -103,8 +97,7 @@ Development is executed via distributed platforms such as GitHub and Gitcoin.
                             height: 9px;
                           `}
                         ></i>
-                       community lead position filled
-
+                       community lead position filled ✅
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i
@@ -115,8 +108,6 @@ Development is executed via distributed platforms such as GitHub and Gitcoin.
                           `}
                         ></i>
                        technical and feature roadmap drafted
-
-
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i
@@ -127,8 +118,6 @@ Development is executed via distributed platforms such as GitHub and Gitcoin.
                           `}
                         ></i>
                        web presence online
-
-
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i
@@ -139,64 +128,119 @@ Development is executed via distributed platforms such as GitHub and Gitcoin.
                           `}
                         ></i>
                        soft launch (waitlist, acquisition of leads)
-
-
                       </li>
                     </ul>
                   </div>
                   <div className="single-block mb-11">
                     <h3 className="gr-text-8 fw-bold pb-5 heading-color">
-                    Phase 1, Round B
+                    Phase 1
                     </h3>
-                    <p className="gr-text-9 pb-5 text-color-opacity">
-                    leadership positions filled
-
-                    </p>
-                    <p className="gr-text-9 text-color-opacity">
-                    private funding rounds sales
-
-                    </p>
-                    <p className="gr-text-9 text-color-opacity">
-                    MVP opened to ‘first row of starting grid’
-                    </p>
-                    <p className="gr-text-9 text-color-opacity">
-                    profile pages, personal dashboard, public stats, community is more chatty, periodic publications started
-
-                    </p>
-                    <p className="gr-text-9 text-color-opacity">
-                    feedback channels from community to platform product owners are established and come to life
-
-                    </p>
+                    <ul className="list-unstyled">
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        all leadership positions filled
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        private funding rounds
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        Private MVP for early funders and adopters
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        feedback channels from community to platform product owners are established and come to life
+                      </li>
+                    </ul>
                   </div>
                   <div className="single-block pb-11">
                     <h3 className="gr-text-8 fw-bold pb-5 heading-color">
-                    Phase 2, Public funding round
+                    Phase 2
                     </h3>
-                    <p className="gr-text-9 pb-5 mb-0 text-color-opacity">
-                    public IDO - community can buy tokens at a discount
-
-                    </p>
-                    <p className="gr-text-9 pb-5 mb-0 text-color-opacity">
-                    Product beta launch
-
-                    </p>
-                    <p className="gr-text-9 pb-5 mb-0 text-color-opacity">
-                    scale up userbase
-
-                    </p>
+                    <ul className="list-unstyled">
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        public IDO - community can buy tokens at a discount
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        Product beta launch
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        Product beta launch
+                      </li>
+                    </ul>
                   </div>
                   <div className="single-block pb-11">
                     <h3 className="gr-text-8 fw-bold pb-5 heading-color">
-                    Phase 3, Official launch
+                    Phase 3
                     </h3>
-                    <p className="gr-text-9 pb-5 mb-0 text-color-opacity">
-                    Product launch
-
-                    </p>
-                    <p className="gr-text-9 pb-5 mb-0 text-color-opacity">
-                    public trading of token
-
-                    </p>
+                    <ul className="list-unstyled">
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        Product launch
+                      </li>
+                      <li className="mt-7 text-color-opacity">
+                        <i
+                          className="rounded-circle bg-dark d-inline-block me-5"
+                          css={`
+                            width: 9px;
+                            height: 9px;
+                          `}
+                        ></i>
+                        public trading of token
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </Col>

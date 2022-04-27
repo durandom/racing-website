@@ -5,14 +5,16 @@ const Process = () => {
   return (
     <>
       {/* <!-- Process Area --> */}
-      <div className="how-section pb-13 pt-lg-13 pb-lg-25 mb-23 mb-lg-29 bg-default-4">
+      <div className="how-section py-10 py-lg-10 bg-default-4">
         <Container>
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mb-11 mb-lg-17">
                 <h2 className="title gr-text-3 mb-7 heading-color">How does it work?</h2>
                 <p className="px-lg-8 gr-text-8 text-color-opacity">
-                Most sim racing games offer a wealth of telemetry data, such as speed, lap times and motor data.
+                  We use the existing data your sim already generates.
+                  <br></br>
+                  It’s as easy as 1-2-3!
                 </p>
               </div>
             </Col>
@@ -27,7 +29,7 @@ const Process = () => {
                 <span>1</span>
               </div>
               <div className="content px-xl-7">
-                <h3 className="title gr-text-7 mb-6 heading-color">Install App</h3>
+                <h3 className="title gr-text-7 mb-6 heading-color">Install the app</h3>
                 <p className="gr-text-9 text-color-opacity">
                   A lightweight application collects local telemetry and sends it to our servers
                 </p>
@@ -43,9 +45,9 @@ const Process = () => {
                 <span>2</span>
               </div>
               <div className="content px-xl-7">
-                <h3 className="title gr-text-7 mb-6 heading-color">Visualize Results</h3>
+                <h3 className="title gr-text-7 mb-6 heading-color">Drive your sim</h3>
                 <p className="gr-text-9 text-color-opacity">
-                  See your current and previous sessions in detailed graphical dashboards
+                  Every time you drive, we automatically collect your session telemetry
                 </p>
               </div>
             </div>
@@ -59,9 +61,9 @@ const Process = () => {
                 <span>3</span>
               </div>
               <div className="content px-xl-7">
-                <h3 className="title gr-text-7 mb-6 heading-color">Grow the Community</h3>
+                <h3 className="title gr-text-7 mb-6 heading-color">Receive recommendations</h3>
                 <p className="gr-text-9 text-color-opacity">
-                  With all data collected, you can enjoy highly customized products and the platform community
+                  After you drive, visit the portal to see your personalized coaching plan
                 </p>
               </div>
             </div>

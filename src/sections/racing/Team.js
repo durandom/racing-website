@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import imgT1 from "../../assets/image/racing/goern.png";
 import imgT2 from "../../assets/image/racing/durandom.png";
-import imgT3 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
+import imgT3 from "../../assets/image/racing/ejacobs.jpg";
 import imgT4 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
 import imgT5 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
 import imgT6 from "../../assets/image/racing/favpng_helmet-euclidean-vector.png";
@@ -16,14 +16,14 @@ const Team = () => {
   return (
     <>
       {/* <!-- Team Area --> */}
-      <div className="team-section pt-13 pt-lg-24 pb-3 pb-lg-20 bg-default-2">
+      <div className="team-section py-10 py-lg-10 bg-default-2">
         <Container>
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mb-13 mb-lg-23 px-lg-7">
                 <h2 className="title gr-text-4 mb-6 heading-color">Leadership Team</h2>
                 <p className="gr-text-8 mb-0 text-color-opacity">
-                Our leadership team ist setting the direction of our products and platform. The driving forces are: community and racing, supported by strong user experience and data science. 
+                Our team sets the direction for the projects that make up our solution. 
                 </p>
               </div>
             </Col>
@@ -39,7 +39,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT1} alt="" className=" circle-96" />
+                  <img src={imgT1} alt="" className=" circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -66,7 +66,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT2} alt="" className=" circle-96" />
+                  <img src={imgT2} alt="" className=" circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -93,17 +93,19 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT3} alt="" className=" circle-96" />
+                  <img src={imgT3} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
-                    <h3 className="name gr-text-7 heading-color mb-6 heading-color">Community / Marketing Lead</h3>
+                    <h3 className="name gr-text-7 heading-color mb-6 heading-color">Erik Jacobs</h3>
                   </Link>
                   <h5 className="gr-text-12 pb-1 text-green text-uppercase">
-                     Position Open
+                     Community/Marketing
                   </h5>
                   <p className="gr-text-11 text-color-opacity mb-0 text-color-opacity">
-                  The community lead facilitates communication and creates awareness and trust within the community. 
+                  Technical marketing and communications expert with a background in motorsports. 
+                    <br/>
+                  <a href="http://www.linkedin.com/in/erikmjacobs">linkedin.com/in/erikmjacobs</a>
                   </p>
                 </div>
               </div>
@@ -118,7 +120,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT4} alt="" className=" circle-96" />
+                  <img src={imgT4} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -143,7 +145,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT5} alt="" className=" circle-96" />
+                  <img src={imgT5} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -172,7 +174,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT6} alt="" className=" circle-96" />
+                  <img src={imgT6} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -191,13 +193,13 @@ const Team = () => {
               lg="4"
               xs="9"
               md="6"
-              className="mb-13 mb-lg-17 px-xs-6 px-md-6 px-lg-0 px-xl-8"
+              className="px-xs-6 px-md-6 px-lg-0 px-xl-8"
               data-aos="fade-right"
               data-aos-duration="800"
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT7} alt="" className=" circle-96" />
+                  <img src={imgT7} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -222,7 +224,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT8} alt="" className=" circle-96" />
+                  <img src={imgT8} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
@@ -245,7 +247,7 @@ const Team = () => {
             >
               <div className="team-widget media">
                 <Link to="/job-openings" className="widget-img me-7">
-                  <img src={imgT9} alt="" className=" circle-96" />
+                  <img src={imgT9} alt="" className="circle-78" />
                 </Link>
                 <div className="widget-text">
                   <Link to="/job-openings">
