@@ -8,7 +8,7 @@ import Content2 from "../sections/landing4/Content2";
 import Testimonial from "../sections/landing4/Testimonial";
 import Pricing from "../sections/landing4/Pricing";
 import Faq from "../sections/landing4/Faq";
-import Cta from "../sections/landing4/Cta";
+import Cta from "../sections/landing4/CTA";
 
 const SaasSubscription = () => {
   return (

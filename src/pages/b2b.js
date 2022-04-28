@@ -8,7 +8,7 @@ import Services from "../sections/landing10/Services";
 import Content2 from "../sections/landing10/Content2";
 import Video from "../sections/landing10/Video";
 import Testimonials from "../sections/landing10/Testimonials";
-import Cta from "../sections/landing10/Cta";
+import Cta from "../sections/landing10/CTA";
 
 const B2B = () => {
   return (

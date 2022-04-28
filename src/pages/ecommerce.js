@@ -6,7 +6,7 @@ import Categories from "../sections/landing5/Categories";
 import Products from "../sections/landing5/Products";
 import Content from "../sections/landing5/Content";
 import Testimonial from "../sections/landing5/Testimonial";
-import Cta from "../sections/landing5/Cta";
+import Cta from "../sections/landing5/CTA";
 
 const Ecommerce = () => {
   return (

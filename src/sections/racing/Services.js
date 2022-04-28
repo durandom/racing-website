@@ -11,16 +11,16 @@ const Services = () => {
   return (
     <>
       {/* <!--Service section  -->*/}
-      <div className="service-section bg-default-4 pt-15 pb-13 py-lg-25">
+      <div className="service-section bg-default-4 py-10 py-lg-10">
         <Container>
           <Row className="justify-content-center">
             <Col md="9" lg="7" xl="6">
               <div className="section-title text-center mb-11 mb-lg-19 px-lg-3">
                 <h4 className="pre-title gr-text-12 text-red text-uppercase mb-7">
-                  Products
+                  Solutions
                 </h4>
                 <h2 className="title gr-text-4 heading-color">
-                  A platform that enables multiple products.
+                  Our modular architecture is comprised of three main components.
                   <br className="d-none d-lg-block" /> 
                 </h2>
               </div>
@@ -40,8 +40,9 @@ const Services = () => {
                 </div>
                 <h3 className="card-title gr-text-6 mb-6 text-white">Driver Identity</h3>
                 <p className="gr-text-9 mb-11 text-color-opacity">
-Users can sign up and claim a unique driver name and populate their profile. All data can be changed later, but all changes are recorded on a public blockchain. By using Web3 technology cheating and manipulation of past records becomes unblushable. 
-
+                  Users of the platform automatically receive a blockchain-backed unique driver identity. This identity
+                  is connected to the user's driving record and can be used to present a profile page or be consumed by
+                  third-party services.
                 </p>
                 {/* <a
                   href="/#"
@@ -65,8 +66,8 @@ Users can sign up and claim a unique driver name and populate their profile. All
                 </div>
                 <h3 className="card-title gr-text-6 mb-6 text-white">Telemetry Collection </h3>
                 <p className="gr-text-9 mb-11 text-color-opacity">
-This is a foundational building block for most products. It consists of lightweight software that is installed on the local machine - or network - which collects the raw telemetry stream and uploads it to a service running on the internet. The service extracts all known telemetry into a common format and stores it in a database.
-
+                  The lightweight telemetry application collects the data from the driving sim and uploads it. The
+                  telemetry server/service standardizes the data format and stores it on the blockchain.
                 </p>
                 {/* <a
                   href="/#"
@@ -90,8 +91,9 @@ This is a foundational building block for most products. It consists of lightwei
                 </div>
                 <h3 className="card-title gr-text-6 mb-6 text-white">Data Pipelines</h3>
                 <p className="gr-text-9 mb-11 text-color-opacity">
-All the telemetry data is processed by a pipeline architecture. It is used to provide statistics on the profile page. The data is also made accessible via views which can be pushed into data products by 3rd parties.
-
+                  All the telemetry data is processed by a pipeline architecture. It is used to provide statistics on
+                  the profile page. The data is also made accessible via views which can be pushed into data products by
+                  3rd parties.
                 </p>
                 {/* <a
                   href="/#"

@@ -8,7 +8,7 @@ import Content1 from "../sections/landing12/Content1";
 import Content2 from "../sections/landing12/Content2";
 import Team from "../sections/landing12/Team";
 import Content3 from "../sections/landing12/Content3";
-import Cta from "../sections/landing12/Cta";
+import Cta from "../sections/landing12/CTA";
 
 const Ecommerce = () => {
   return (

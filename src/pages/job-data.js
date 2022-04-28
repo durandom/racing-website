@@ -35,9 +35,9 @@ const JobOpenings = () => {
               <Col xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
                   <p className="gr-text-9 text-color-opacity mb-9">
-                  This role opens the potential of the data aggregated by our platform, enabling us and our partners to provide unique services.
-
-</p>
+                    Develop machine learning and deep learning models from driver data, working closely with the racing
+                    lead and UXD lead
+                  </p>
                 </div>
                 <div className="single-block mb-12 mb-lg-14">
                   <h3 className="gr-text-6 heading-color fw-bold pb-3">
@@ -52,8 +52,7 @@ const JobOpenings = () => {
                           height: 9px;
                         `}
                       ></i>
-work with time-series data
-
+                      work with time-series and large datasets
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">
                       <i
@@ -63,16 +62,7 @@ work with time-series data
                           height: 9px;
                         `}
                       ></i>
-data science
-                      <br></br>
-                      statistical analytics
-
-                      <br></br>
-                      deep learning
-
-                      <br></br>
-                      classification, clustering
-
+                      building machine and deep learning models
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">
                       <i
@@ -82,9 +72,7 @@ data science
                           height: 9px;
                         `}
                       ></i>
-big data
-                      <br/>making data accessible
-
+                      statistical analysis, classification, and cluster analysis
                     </li>
                     
                   </ul>

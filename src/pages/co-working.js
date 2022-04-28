@@ -8,7 +8,7 @@ import Locations from "../sections/landing3/Locations";
 import Content1 from "../sections/landing3/Content1";
 import Feature from "../sections/landing3/Feature";
 import Content2 from "../sections/landing3/Content2";
-import Cta from "../sections/landing3/Cta";
+import Cta from "../sections/landing3/CTA";
 
 const CoWorking = () => {
   return (

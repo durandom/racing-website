@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <>
       {/* <!-- Content Area --> */}
-      <div className="content-section pt-6 pt-lg-19 pb-5 bg-default-4">
+      <div className="content-section pt-6 pt-lg-6 pb-6 bg-default-4">
         <Container>
           <Row className="align-items-center">
             <Col lg="6" data-aos="flip-right" data-aos-duration="1000">
@@ -18,10 +18,12 @@ const Content = () => {
             <Col xs="10" lg="5" className="ps-xl-21">
               <div className="section-title content-text mb-13">
                 <h2 className="title gr-text-3 mb-6 heading-color">
-                  Competition
+                  Get Faster - Faster!
                 </h2>
                 <p className="gr-text-8 text-color-opacity">
-                  Sim racers enjoy collecting data, improving their skills, and a healthy competition. Grinding laps on a single track and shaving those milliseconds off of a lap time requires dedication and a long-term investment: hundreds if not thousands of detailed, analysed training laps. 
+                  B4mad is an AI-powered driving coach that does the hard work for you. No reading squiggly lines. No
+                  trying to figure out how to overlay your data. No phone calls or emails. Just a few simple software
+                  plugins for your favorite sim racing title and B4mad tells you how to go faster.
                 </p>
               </div>
               <div className="content-widget">
@@ -35,10 +37,12 @@ const Content = () => {
                   >
                     <div className="single-widget mb-9">
                       <h3 className="w-title gr-text-7 heading-color">
-                         Track Record
+                         Only perfect practice makes perfect.
                       </h3>
                       <p className="gr-text-9 mb-0 text-color-opacity">
-                      #B4mad Racing provides a driver’s history - the track record - across multiple games, along the lifetime of their career. 
+                        You might get better driving thousands upon thousands of laps in the sim. But you also might
+                        just be wasting your time reinforcing bad habits. Let B4mad automatically analyze your driving
+                        data and give you actionable advice on how to go faster.
                       </p>
                     </div>
                   </Col>
@@ -51,10 +55,12 @@ const Content = () => {
                   >
                     <div className="single-widget mb-9">
                       <h3 className="w-title gr-text-7 heading-color">
-                        Skills
+                        Improvement at any level
                       </h3>
                       <p className="gr-text-9 mb-0 text-color-opacity">
-                        #B4mad Racing enables them to work on their driving style and most important their skills, through innovative products and comparing their ability with other drivers.
+                        Whether you are a grizzled sim veteran or someone new to the sport, the technology behind B4mad
+                        can help you improve. Your data is all we need to look at to tell you how and where you can go
+                        faster.
                       </p>
                     </div>
                   </Col>
