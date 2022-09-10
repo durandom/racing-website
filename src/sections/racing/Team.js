@@ -49,8 +49,7 @@ const Team = () => {
                      Founder
                   </h5>
                   <p className="gr-text-11 mb-0 text-color-opacity">
-                    Long time Open Source hacker with a passion for AiDevSecOps and Web3
-                    <br/>
+                    Long time Open Source hacker with a passion for AiDevSecOps                    <br/>
                   <a href="http://www.linkedin.com/in/goern">linkedin.com/in/goern</a>
                   </p>
                 </div>

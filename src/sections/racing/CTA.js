@@ -15,15 +15,15 @@ const Cta = () => (
                   Ready, set, go?
                 </h2>
                 <p className="gr-text-8 mb-8 mb-lg-0 text-color-opacity">
-                  Sign up now for the waitlist
+                  Enable #B4mad Racing now
                 </p>
               </div>
             </Col>
             <div className="col-lg-4 offset-lg-2 col-md-10">
               <div className="cta-btn text-lg-end">
-              <Link to="/contact">
+              <Link to="https://github.com/b4mad/racing#b4mad-racing">
               <Button className="gr-hover-y rounded-8">
-                  Join the waitlist
+                   Install
                   </Button>
                 </Link>
               </div>

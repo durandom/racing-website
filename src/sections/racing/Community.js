@@ -67,9 +67,8 @@ const Community = () => {
 
                 </h2>
                 <p className="gr-text-8 text-color-opacity mb-7 mb-lg-10">
-                  #B4mad is a strongly community-oriented effort. Anybody can contribute to the project. Our use of 
-                  Web3 technologies and the Vrooom token means that community participants can receive a stake in the
-                  project. Contributions are directly rewarded with ownership.
+                  #B4mad is a strongly community-oriented effort. Anybody can contribute to the project.
+                  Our use of Open Source technologies means that community participants can easily contribute to the project.
                 </p>
                
               </div>

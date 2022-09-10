@@ -7,6 +7,7 @@ https://finestdevs.com/product/shadepro-react/
 ## Hacking
 
 ```
+npm install --legacy-peer-deps
 yarn develop
 ```
 

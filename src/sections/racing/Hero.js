@@ -59,7 +59,7 @@ const Hero = () => {
                   #B4mad Racing
                 </h1>
                 <p className="gr-text-8 px-7 ps-md-0 pe-md-11 mb-0 gr-color-white-opacity-7">
-                   AI-powered sim racing driver coaching
+                   Community-driven SimRacing data collection and analysis
                 </p>
                 {/* <div className="hero-btns mt-11">
                   <Link to="/#" className="btn btn-red rounded-8 text-white gr-hover-y">

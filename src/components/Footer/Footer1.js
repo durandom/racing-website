@@ -35,7 +35,7 @@ const Footer = () => {
                 className="footer-logo mb-11"
               />
               <p className="gr-text-11 text-color-opacity">
-              AI-powered sim racing driver coaching
+              Community driven SimRacing data collection and analysis
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
                 <li className="me-2">
@@ -72,8 +72,8 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="py-2">
-                        <Link to="/platform" className={linkClassName}>
-                          Platform
+                        <Link to="/prodcut" className={linkClassName}>
+                          Features
                         </Link>
                       </li>
                       <li className="py-2">
@@ -88,11 +88,6 @@ const Footer = () => {
                   <div className="single-footer mb-13 mb-lg-9">
                     <p className="footer-title gr-text-11 text-color-opacity mb-7">Community</p>
                     <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link to="/tokenomics" className={linkClassName}>
-                          Tokenomics
-                        </Link>
-                      </li>
                       <li className="py-2">
                         <Link to="/contact" className={linkClassName}>
                           Join the Team

@@ -40,8 +40,8 @@ const Services = () => {
                 </div>
                 <h3 className="card-title gr-text-6 mb-6 text-white">Driver Identity</h3>
                 <p className="gr-text-9 mb-11 text-color-opacity">
-                  Users of the platform automatically receive a blockchain-backed unique driver identity. This identity
-                  is connected to the user's driving record and can be used to present a profile page or be consumed by
+                  Users of the platform automatically receive a unique driver identity.
+                  This identity is connected to the user's driving record and can be used to present a profile page or be consumed by
                   third-party services.
                 </p>
                 {/* <a
@@ -66,8 +66,7 @@ const Services = () => {
                 </div>
                 <h3 className="card-title gr-text-6 mb-6 text-white">Telemetry Collection </h3>
                 <p className="gr-text-9 mb-11 text-color-opacity">
-                  The lightweight telemetry application collects the data from the driving sim and uploads it. The
-                  telemetry server/service standardizes the data format and stores it on the blockchain.
+                  The lightweight telemetry application collects the data from the driving sim and uploads it.
                 </p>
                 {/* <a
                   href="/#"
