@@ -8,7 +8,7 @@ const headerConfigDefault = {
   align: "left",
   isFluid: false,
   button: "cta", // trial, cart, cta, account, null
-  buttonText: "Waitlist", // trial, cart, cta, account, null
+  buttonText: "Contact", // trial, cart, cta, account, null
 };
 
 const footerConfigDefault = {

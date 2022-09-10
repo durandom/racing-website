@@ -21,9 +21,9 @@ const Content = () => {
                   Get Faster - Faster!
                 </h2>
                 <p className="gr-text-8 text-color-opacity">
-                  B4mad is an AI-powered driving coach that does the hard work for you. No reading squiggly lines. No
-                  trying to figure out how to overlay your data. No phone calls or emails. Just a few simple software
-                  plugins for your favorite sim racing title and B4mad tells you how to go faster.
+                  #B4mad Racing is a community-driven SimRacing data collection pipeline and analysis tool.
+                  We collect data from the community and provide it back to the community in a way that is easy to consume and understand.
+                  We are a community of simracers, for simracers.
                 </p>
               </div>
               <div className="content-widget">
@@ -40,8 +40,9 @@ const Content = () => {
                          Only perfect practice makes perfect.
                       </h3>
                       <p className="gr-text-9 mb-0 text-color-opacity">
-                        You might get better driving thousands upon thousands of laps in the sim. But you also might
-                        just be wasting your time reinforcing bad habits. Let B4mad automatically analyze your driving
+                        You might get better driving thousands upon thousands of laps in the sim.
+                        But you also might just be wasting your time reinforcing bad habits.
+                        Let #B4mad Racing automatically analyze your driving
                         data and give you actionable advice on how to go faster.
                       </p>
                     </div>
@@ -58,10 +59,10 @@ const Content = () => {
                         Improvement at any level
                       </h3>
                       <p className="gr-text-9 mb-0 text-color-opacity">
-                        Whether you are a grizzled sim veteran or someone new to the sport, the technology behind B4mad
-                        can help you improve. Your data is all we need to look at to tell you how and where you can go
-                        faster.
-                      </p>
+                        Whether you are a grizzled sim veteran or someone new to the sport,
+                        the technology behind #B4mad Racing can help you improve.
+                        Upload your data and find out how and where you can go faster.
+                       </p>
                     </div>
                   </Col>
                 </Row>

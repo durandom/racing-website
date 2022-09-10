@@ -26,10 +26,9 @@ const Content = () => {
                   About Us
                 </h2>
                 <p className="gr-text-8 text-color-opacity">
-                  #B4mad Racing is a group of open-source technologists who are passionate about motorsports. We want to
-                  apply the latest in machine learning, messaging, data visualization, and other projects to help people
-                  drive faster. We are building infrastructures using Web3 technologies to help support a user-driven
-                  ecosystem and community that is eager to get involved.
+                  #B4mad Racing is a group of open-source technologists who are passionate about motorsports.
+                  We want to apply the latest in machine learning, messaging, data visualization, and other projects to help people drive faster.
+                  We are building infrastructures using Open Source technologies to help support a user-driven ecosystem and community that is eager to get involved.
                 </p>
               </div>
             </Col>

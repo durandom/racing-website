@@ -53,7 +53,7 @@ const JobOpenings = () => {
                           height: 9px;
                         `}
                       ></i>
-                      experience in distributed architectures and Web3
+                      experience in distributed architectures
 
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">

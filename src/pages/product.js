@@ -17,7 +17,7 @@ const Product = () => {
               <Col xl="8" lg="9" md="11">
                 <div className="px-xl-15 px-lg-8 text-center">
                   <h2 className="title gr-text-2 mb-9 heading-color">
-                  #B4mad Products
+                  #B4mad Racing features
                   </h2>
                 </div>
               </Col>
@@ -31,14 +31,9 @@ const Product = () => {
               <Col lg="10" xl="8">
                 <div className="px-lg-8 px-xl-3">
                   <div className="single-block mb-11">
+                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Current features</h3>
                     <p className="gr-text-9 text-color-opacity">
-                    There are currently two product tiers for #B4mad racing:
-                    </p>
-                  </div>
-                  <div className="single-block mb-11">
-                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Free Tier</h3>
-                    <p className="gr-text-9 text-color-opacity">
-                      The free tier is a basic telemetry collection and visualization service.
+                      Basic telemetry collection and visualization
                     </p>
                     <ul className="list-unstyled">
                       <li className="mt-7 text-color-opacity">
@@ -47,7 +42,7 @@ const Product = () => {
                             height: 9px;
                           `}
                         ></i>
-                        #B4mad sim racing telemetry collection app
+                        telemetry collection app
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i className="rounded-circle bg-dark d-inline-block me-5" css={`
@@ -55,7 +50,7 @@ const Product = () => {
                             height: 9px;
                           `}
                         ></i>
-                        Vehicle speed, engine RPM, and accelerometer visualization
+                        Vehicle telemetry isualization
                       </li>
                       <li className="mt-7 text-color-opacity">
                         <i className="rounded-circle bg-dark d-inline-block me-5" css={`
@@ -65,38 +60,11 @@ const Product = () => {
                         ></i>
                         Export/download your session data
                       </li>
-                      <li className="mt-7 text-color-opacity">
-                        <i className="rounded-circle bg-dark d-inline-block me-5" css={`
-                            width: 9px;
-                            height: 9px;
-                          `}
-                        ></i>
-                        Up to 100 sessions stored (earlier sessions automatically purged)
-                      </li>
-                      <li className="mt-7 text-color-opacity">
-                        <i className="rounded-circle bg-dark d-inline-block me-5" css={`
-                            width: 9px;
-                            height: 9px;
-                          `}
-                        ></i>
-                        Consistency score                        
-                      </li>
                     </ul>
                   </div>
                   <div className="single-block mb-11">
-                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Paid Tier</h3>
-                    <p className="gr-text-9 text-color-opacity">
-                      Becoming a #B4mad subscriber unlocks all the power of the platform.
-                    </p>
+                    <h3 className="gr-text-8 fw-bold pb-3 heading-color">Future features</h3>
                     <ul className="list-unstyled">
-                      <li className="mt-7 text-color-opacity">
-                        <i className="rounded-circle bg-dark d-inline-block me-5" css={`
-                            width: 9px;
-                            height: 9px;
-                          `}
-                        ></i>
-                       Complete telemetry data visualization
-                      </li>
                       <li className="mt-7 text-color-opacity">
                         <i className="rounded-circle bg-dark d-inline-block me-5" css={`
                             width: 9px;
