@@ -1,4 +1,4 @@
-name: Deploy Operate First Blog
+name: Deploy B4mad Racing Website
 on:
   push:
     branches:
